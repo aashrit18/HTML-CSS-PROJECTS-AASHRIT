@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            GYM WEB PAGE
+        </title>
+        <link rel="stylesheet" href="Gym_home.css">
+        <link rel="stylesheet" href="colorgrid.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+        <script src="https://kit.fontawesome.com/ac8e9ed0b1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div id="nav-bar-pos">
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger" id="logo-background">
+            <a class="navbar-brand" href="#">
+                <img src="https://imagetolink.com/ib/ysQ5YZiQL5.png" alt="G8LJrEESFi" class="gym_logo"/>
+            </a>
+            <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav navbar-aign-elements">
+                <a class="nav-link active" href="#Home-content" id="navtext1" class="navtext">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#About-content" id="navtext1">About</a>
+                <a class="nav-link" href="#Ourteam-content" id="navtext1">Ourteam</a>
+                <a class="nav-link" href="#Membership-content" id="navtext1">Membership</a>
+                <a class="nav-link" href="#Get-in-touch-content" id="navtext1">Get-in-touch</a>
+              </div>
+            </div>
+          </nav>
+          </div>
+
+          <div class="gym-home" id="Home-content">
+            <div class="gym-banner-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="gym-banner-text">
+                        <h1 class="gym-banner-head">Become Your Best Self at AA Fitness. Embrace Health, Transform Your Reality</h1>
+                        <p class="gym-banner-para">Embark on the Ultimate Fitness Journey with Functional Training, Plyometric Boxes, Aerobics Classes, TRX, and More.</p>
+                        <button class="gym-banner-button1">Discover classes</button>
+                        <button class="gym-banner-button2">See our offerings</button>
+                        </div>
+                    </div>
+            <div class="col-12 col-md-4">
+                <img src="https://imagetolink.com/ib/9DaX2KfgI2.jpeg"/ class="gym-banner-img">
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gym-about-us" id="About-content">
+        <div class="gym-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 order2 order-md-1">
+                    <div class="about-us-carousel ">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..."  >
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>                
+                </div>
+                </div>
+                <div class="col-12 col-md-7 order-1 order-md-2">
+                    <div class="gym-about-us-text">
+                        <h1 class="about-us-head">About AA Fitness</h1>
+                        <p class="about-us-para">At AA FITNESS, we go beyond being just a fitness center; 
+                            we're a community committed to transforming lives through health and wellness. 
+                            Established with a passion for helping people reach their fitness goals, our 
+                            mission is to empower, inspire, and support you on your journey to a healthier and happier life.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="gym-our-vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 order-1 order-md-2">
+                    <div class="gym-our-vision-corusol">
+                        <div class="about-us-carousel ">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..." >
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://images.unsplash.com/photo-1605296867724-fa87a8ef53fd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="..."  >
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <div class="gym-our-vision">
+                        <h1 class="about-us-head">OUR VISION</h1>
+                        <p class="about-us-para">
+                            Our goal is to be your reliable ally in attaining peak well-being.
+                             We believe that a robust and healthy body is essential for a successful and fulfilling life.
+                              Whether you're just starting your fitness journey or you're a seasoned athlete, we're here
+                               to support and guide you every step of the way.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="gym-our-team" id="Ourteam-content"> 
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="gym-our-team-heading">OUR TEAM</h1>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="gym-our-team-card">
+                <img src="https://images.pexels.com/photos/1552102/pexels-photo-1552102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="DZ7Suu0RXU" class="ourteam1"/>
+                <div class="gym-our-team-text">
+                  <h2 class="gym-our-team-names">Bulk-coach</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="gym-our-team-card">
+                <img src="https://img.freepik.com/premium-photo/bodybuilder-strong-man-pumping-up-abs-muscles_174475-1973.jpg?w=360" alt="P5tKf02ZvF" class="ourteam1"/>
+                <div class="gym-our-team-text"><h2 class="gym-our-team-names">MMA-coach
+                  </h2></div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="gym-our-team-card">
+                <img src="https://images.pexels.com/photos/1886487/pexels-photo-1886487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="SYeKmlEkSK" class="ourteam1"/>
+                <div class="gym-our-team-text"><h2 class="gym-our-team-names">Yoga-coach
+                  
+                </h2></div>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="gym-our-team-card">
+                <img src="https://images.pexels.com/photos/3289711/pexels-photo-3289711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="k38rki5Ddk" class="ourteam1"/>
+                <div class="gym-our-team-text"><h2 class="gym-our-team-names">Personal-coach</h2></div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="gym-membership" id="Membership-content">
+          <div class="gym-memberships-cont">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h1 class="gym-membership-head">MEMBERSHIP</h1>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="gym-membership-card1">
+                    <div class="gym-membership-text-contant">
+                     <h1>3 Months</h1>
+                     <p>$100/MON USD</p>
+                  </div>
+                    <p class="gym-hr"></p>
+                    <ul class="gym-membership-text">
+                      <li>5 Group Fitness Sessions</li>
+                      <li>5 One-on-One Training Sessions</li>
+                      <li>Unlimited Gym & Amenities Access</li>
+                      <li>Orientation & Training Guidance</li>
+                    </ul>
+                    <button class="gym-membership-button1">Get Started</button>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <div class="gym-membership-card1">
+                    <div class="gym-membership-text-contant">
+                     <h1>6 Months</h1>
+                     <p>$75/MON USD</p>
+                  </div>
+                  <p class="gym-hr"></p>
+                    <ul class="gym-membership-text">
+                      <li>5 Group Fitness Sessions</li>
+                      <li>5 One-on-One Training Sessions</li>
+                      <li>Unlimited Gym & Amenities Access</li>
+                      <li>Orientation & Training Guidance</li>
+                    </ul>
+                    <button class="gym-membership-button1">Get Started</button>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                  <div class="gym-membership-card1">
+                    <div class="gym-membership-text-contant">
+                     <h1>1 Year</h1>
+                     <p>$50/MON USD</p>
+                  </div>
+                  <p class="gym-hr"></p>
+                    <ul class="gym-membership-text">
+                      <li>5 Group Fitness Sessions</li>
+                      <li>5 One-on-One Training Sessions</li>
+                      <li>Unlimited Gym & Amenities Access</li>
+                      <li>Orientation & Training Guidance</li>
+                    </ul>
+                    <button class="gym-membership-button1">Get Started</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="get-in-touch" id="Get-in-touch-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="get-in-touch-head">Get-in-touch</h1>
+                <div class="get-in-touch-card">
+                <div class="col-12">
+                    <label for="fname" class="get-in-touch-values">Name:</label><br>
+                    <input type="text" id="fname" name="fname" class="get-in-touch-area" required/>
+                </div>
+                <div class="col-12">
+                    <label for="fmail" class="get-in-touch-values">Email:</label><br>
+                    <input type="email" id="fmail" name="fmail" class="get-in-touch-area" required/>
+                </div>
+              <div class="col-12">
+                <label for="fnum" class="get-in-touch-values">Number:</label><br>
+                <input type="text" id="fnum" name="fnum" class="get-in-touch-area" required/>
+            </div>
+            <div class="get-in-touch-button-border">
+              <button class="btn btn-dark" id="get-in-touch-button">SEND</button>
+            </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </body>
+    <footer>
+      <div class="footer-gym">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="Address-gym">
+                <h1>AA FITNESS</h1>
+                <p>chettipedu,Thandalam,602105
+                  Tamil Nadu, India
+                </p>
+              <div class="gym-logo-contact">
+                <a href="https://web.whatsapp.com/"><img src="https://i.pinimg.com/originals/41/ac/0c/41ac0c8d635678dafbda4416ce5ec9c4.png" class="whatsapp-gym"/></a>
+                <a href="https://www.facebook.com/index.php/"><img src="https://as1.ftcdn.net/v2/jpg/04/19/08/48/1000_F_419084895_QQMFVPfChIrMNMbNC9xpOzqGXOK02HgJ.jpg" class="facrbook-gym"/></a>
+                <a href="https://www.instagram.com/?hl=en"><img src="https://metaphortune.com/wp-content/uploads/2016/06/instagram.jpg" class="facrbook-gym"/></a>
+                <a href="https://x.com/login="><img src="https://logodix.com/logo/14545.jpg" class="twitter-gym"/></a>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="links-gym-quick">
+              <h2 class="gym-Quick-links">Quick Links</h2>
+              <a href="#Home-content"><h6 class="link-gym-head">Home</h6></a>
+              <a href="#About-content"><h6 class="link-gym-head">About</h6></a>
+              <a href="#Ourteam-content"><h6 class="link-gym-head">Ourteam</h6></a>
+              <a href="#Membership-content"><h6 class="link-gym-head">Membership</h6></a>
+              <a href="#Get-in-touch-content"><h6 class="link-gym-head">Get-in-touch</h6></a>
+              </div>
+            </div>
+            
+            <div class="col-12 col-md-4">
+              <h2 class="News-letter-gym">News Letter</h2>
+              <label for="footmail"></label>
+              <input id="footmail" type="email" value="email.domine.com" class="input-gym-letter"/>
+              <button class="button-footer-letter">✓</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="Copy-right-gym">
+        <h3>Copyright © by Aashrit</h3>
+        <a href="https://github.com/Aashritdhanush/HTML-CSS-PROJECTS-AASHRIT.git"><img src="https://imagetolink.com/ib/SXzrZGZ6fB.jpg" alt="SXzrZGZ6fB" class="github-logo"/></a>
+      </div>
+    </footer>
+</html>
