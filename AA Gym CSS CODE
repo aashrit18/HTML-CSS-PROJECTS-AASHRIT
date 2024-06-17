@@ -1,0 +1,292 @@
+#nav-bar-pos{
+    position:fixed;
+    width:100%;
+    z-index: 1;
+}
+.navbar-aign-elements
+{
+    margin-left:auto;
+}
+#navtext1{   
+    margin-right:50px;
+    color:black;
+}
+#navbarNavAltMarkup  a:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(160, 35, 35);
+}
+.gym_logo{
+    height:60px;
+    width:100px;
+    
+}
+#logo-background{
+    background-image: url("logo-background");
+}
+.gym-home{
+    background-color: black;
+    width:100%;
+    
+}
+.gym-banner-img{
+    height:500px;
+    margin:20px;
+    margin-top:100px;
+    
+    
+}
+.gym-banner-content{
+}
+.gym-banner-head{
+    color:rgb(198, 128, 128);
+}
+.gym-banner-text{
+    margin-top:100px;
+    padding-top:60px;
+
+}
+.gym-banner-para{
+    color:rgb(255, 255, 255);
+    margin-top:20px;
+}
+.gym-banner-button1{
+    width:150px;
+    height:40px;
+    background-color: rgb(159, 14, 14);
+    color:rgb(0, 0, 0);
+    border:0px;
+    border-radius:10px;
+    margin-right:15px;
+}
+.gym-banner-button1:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(160, 24, 24);
+}
+.gym-banner-button2{
+    width:150px;
+    height:40px;
+    background-color:transparent;
+    color:rgb(161, 40, 32);
+    border:solid;
+    border-radius:10px;
+    margin-right:15px;
+}
+.gym-banner-button2:hover{
+    background-color: rgb(160, 24, 24);
+    color:rgb(0, 0, 0);
+}
+.gym-about-us{
+    background-color:rgb(143, 34, 34);
+}
+.about-us-head{
+    color:black;
+    font-weight: bold;
+    margin-top:20px;
+}
+.about-us-para{
+    color:white;
+    font-size:18px;
+}
+.about-us-img1{
+    width:250px;
+    border-radius: 20px;
+    margin-top:30px;
+}
+
+.about-us-carousel{
+    margin-top:30px;
+    text-align:center;
+}
+.gym-our-vision{
+    background-color:rgb(143, 34, 34);
+}
+.gym-our-vision-corusol{
+    margin-bottom: 20px;
+}
+.gym-our-team{
+    background-color:black;
+}
+.gym-our-team-card{
+    background-color:rgb(145, 27, 27);
+    text-align:center;
+    margin:10px;
+}
+.gym-our-team-card:hover{
+    box-shadow: 1px 5px 25px 5px  rgb(210, 24, 24);
+}
+.ourteam1{
+    width:100%;  
+}
+.gym-our-team-names
+{
+    color:rgb(186, 30, 30);
+    background-color: black;
+    padding:5px;
+    font-family:monospace;
+    font-size: 15px;
+}
+.gym-our-team-text{
+    text-align: center;
+}
+.gym-our-team-heading{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+}
+.gym-membership{
+    background-color: rgb(143, 34, 34);
+}
+.gym-membership-card1{
+    background-color: rgb(44, 41, 37);
+    padding:20px;
+    margin:20px;
+}
+.gym-membership-card1:hover {
+    animation: hoverEffect 2s infinite;
+}
+
+@keyframes hoverEffect {
+    0%, 100% {
+        transform: translate(0, 0);
+        box-shadow: 1px 5px 25px 5px rgba(40, 36, 36, 0.5);
+    }
+    50% {
+        transform: translate(0.5em, 0.5em);
+        box-shadow: 1px 5px 25px 5px rgba(40, 36, 36, 0.7);
+    }
+}
+
+.gym-membership-text{
+    font-size:20px;
+    color:rgb(203, 198, 198);
+    font-weight:30px;
+    margin:30px;
+}
+.gym-horizontal line{
+    border-color:rgb(255, 0, 0);
+    width:20px ;
+}
+.gym-membership-text-contant{
+    text-align:center;
+    color:white;
+    font-weight: bold;
+}
+.gym-membership-head{
+    text-align: center;
+    color: black;
+    margin-top:20px;
+    font-weight: bold;
+}
+.gym-membership-button1{
+    width:100%;
+    background-color:rgb(234, 255, 0);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size:40px;
+    border: 0cap;
+}
+.gym-hr {
+    height: 5px;
+    background-color: #9c1d1d;
+    border: none;
+}
+.get-in-touch{
+    background-color:rgb(53, 51, 51);
+}
+.get-in-touch-card{
+    background-color: rgb(144, 34, 34);
+    margin:30px;
+    padding:20px;
+}
+.get-in-touch-values{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.get-in-touch-area{
+    width:100%;
+    background-color: rgb(144, 34, 34);
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+}
+.get-in-touch-head{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.get-in-touch-area:hover{
+    background-color: black;
+    color:white;
+}
+#get-in-touch-button{
+    text-align:center;
+    width:100%;
+    color:white;
+    font-size: 20px;
+
+}
+.get-in-touch-button-border{
+    padding: 20px;
+    margin:10px;
+}
+.footer-gym{
+    background-color:black;
+}
+.whatsapp-gym{
+    width: 30px;
+    height: 30px;
+    
+}
+.Address-gym{
+    color:white;
+    margin:30px;
+}
+.facrbook-gym{
+    width: 40px;
+    height: 40px;
+       
+}
+.twitter-gym{
+    width: 30px;
+    height: 30px; 
+}
+.gym-Quick-links{
+    color:white;
+}
+.links-gym-quick{
+    margin:30px;
+}
+.link-gym-head{
+    color:white;
+}
+.News-letter-gym{
+    color:white;
+    margin-top:30px;
+}
+.button-footer-letter{
+    background-color:yellow;
+    border: none;
+    height:30px;
+    width:40px;
+    border-radius: 6px;
+}
+.input-gym-letter{
+    background-color:rgb(108, 94, 94);
+    border:0cap;
+}
+.Copy-right-gym{
+    background-color: black;
+}
+.hr-gym-copy-right{
+    border-bottom: 5px solid red;
+}
+.Copy-right-gym{
+    color:white;
+    text-align: center;
+}
+.github-logo{
+    height:100px;
+    width:100px;
+}
